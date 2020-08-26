@@ -20,5 +20,8 @@ class ViewController: UIViewController {
         return ["None" : 0]
     }
 
+    override func viewDidAppear(_ animated: Bool) {
+        // TBD
+    }
 }
 
