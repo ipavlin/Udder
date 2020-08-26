@@ -15,6 +15,10 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
+    override func dictionaryWithValues(forKeys keys: [String]) -> [String : Any] {
+        // Create dictionary for ...
+        return ["None" : 0]
+    }
 
 }
 
